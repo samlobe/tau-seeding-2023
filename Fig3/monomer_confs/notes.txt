@@ -1,0 +1,7 @@
+Genereated from top two clusters when co-clustering the combined ensemble with the Daura algorithm.
+`gmx cluster -f combined.xtc -s combined.gro -method gromos -cutoff 0.20 -sz`
+where combined.gro is the common atoms of jR1R3 and jR2R3 (backbone) and combined.xtc are the concatenated trajectories of jR1R3 and jR2R3.
+
+These top 2 clusters from co-clustering are also the top two most common H-bonded patterns.
+Cluster 1 is defined by having intra H-bonds between r300-305 and r298-307.
+Cluster 2 is defined by having intra H-bonds between r300-307 and r298-309.
